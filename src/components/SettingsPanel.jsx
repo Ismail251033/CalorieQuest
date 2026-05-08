@@ -3,7 +3,7 @@
  * Bottom-sheet settings panel (theme / language / daily goal).
  * Opens with a glassmorphism backdrop + slide-up animation.
  */
-
+import React from 'react'
 import { useState } from "react";
 import { getGlassCard } from "../utils/theme";
 
