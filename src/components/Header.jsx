@@ -14,6 +14,7 @@
  * @param {boolean}  props.installAnim     - Trigger pop animation
  * @param {string}   props.activeTab
  */
+import React from 'react'
 export default function Header({
   streak,
   theme,
