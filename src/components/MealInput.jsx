@@ -3,7 +3,7 @@
  * Form to add a new meal (name + calories).
  * Handles its own local input state; calls onAdd(name, calories) on submit.
  */
-
+import React from 'react'
 import { useState } from "react";
 import Card from "./Card";
 
