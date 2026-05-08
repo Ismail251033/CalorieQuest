@@ -3,7 +3,7 @@
  * React entry point. Mounts <App /> into the #root DOM node.
  * Configure any global providers here (e.g. StrictMode).
  */
-
+import React from 'react'
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
