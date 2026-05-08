@@ -13,6 +13,7 @@
  * @param {boolean} props.goalReached
  * @param {Object}  props.t           - Translation map
  */
+import React from 'react'
 export default function CalorieRing({ value, goal, progress, overGoal, goalReached, t }) {
   const RADIUS = 70;
   const CX     = 90;
