@@ -9,6 +9,7 @@
  * @param {string|null} props.message  - Text to show. Null = hidden.
  * @param {string}      props.theme    - "dark" | "light"
  */
+import React from 'react'
 export default function Toast({ message, theme }) {
   if (!message) return null;
 
