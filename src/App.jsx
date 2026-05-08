@@ -3,7 +3,7 @@
  * Root component. Owns all global state, side effects, and event handlers.
  * Composes Header, pages, SettingsPanel, Toast, Confetti, BottomNav.
  */
-
+import React from 'react'
 import { useState, useEffect, useRef, useCallback } from "react";
 
 // Utils
