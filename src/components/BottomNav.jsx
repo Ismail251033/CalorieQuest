@@ -10,6 +10,7 @@
  * @param {Object}   props.t           - Translation map
  * @param {string}   props.theme       - "dark" | "light"
  */
+import React from 'react'
 export default function BottomNav({ activeTab, onTabChange, t, theme }) {
   const TABS = [
     { id: "dashboard", icon: "🏠", label: t.dashboard },
