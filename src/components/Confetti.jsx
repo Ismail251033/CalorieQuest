@@ -10,6 +10,7 @@ const COLORS = ["#a78bfa", "#818cf8", "#38bdf8", "#34d399", "#fb923c", "#f472b6"
  * @param {Object}  props
  * @param {boolean} props.active - Show confetti when true
  */
+import React from 'react'
 export default function Confetti({ active }) {
   if (!active) return null;
 
