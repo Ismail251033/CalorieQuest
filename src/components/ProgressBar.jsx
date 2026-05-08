@@ -11,6 +11,7 @@
  * @param {number}  [props.height]      - Bar height in px (default 8)
  * @param {boolean} [props.shimmer]     - Enable shimmer animation (default true for xp)
  */
+import React from 'react'
 export default function ProgressBar({ percent, variant = "calories", height = 8, shimmer }) {
   const isOver  = variant === "calories" && percent >= 100;
   const isXp    = variant === "xp";
