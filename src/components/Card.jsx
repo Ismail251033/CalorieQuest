@@ -15,6 +15,7 @@ import { getGlassCard } from "../utils/theme";
  * @param {string}  [props.className]
  * @param {Function}[props.onClick]
  */
+import React from 'react'
 export default function Card({ children, style = {}, animation, glow, className, onClick }) {
   const base = getGlassCard();
 
