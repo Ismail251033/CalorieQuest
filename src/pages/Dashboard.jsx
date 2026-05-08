@@ -3,7 +3,7 @@
  * Main view: calorie ring, XP bar, streak, meal input, meals list.
  * Receives all data and handlers as props — no direct state or storage access.
  */
-
+import React from 'react'
 import Card         from "../components/Card";
 import CalorieRing  from "../components/CalorieRing";
 import ProgressBar  from "../components/ProgressBar";
