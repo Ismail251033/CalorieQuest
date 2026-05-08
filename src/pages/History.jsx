@@ -3,7 +3,7 @@
  * Shows the last 14 days of logged meals with progress bars.
  * Each day shows date, meal count, total calories and completion status.
  */
-
+import React from 'react'
 import Card        from "../components/Card";
 import ProgressBar from "../components/ProgressBar";
 import { getCaloriesForDay, getProgressPercent, formatDateLabel } from "../utils/calculations";
